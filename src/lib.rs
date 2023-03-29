@@ -1,7 +1,7 @@
 mod frame;
 mod tests;
 
-use frame::frame::*;
+use frame::*;
 
 pub struct BowlingGame {
     frames: Frame,
