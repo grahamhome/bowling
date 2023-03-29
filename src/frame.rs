@@ -41,6 +41,7 @@ impl Frame {
             next_frame: None,
         }
     }
+
     fn next_from_roll(&self, roll: u16) -> Frame {
         Frame {
             index: self.index + 1,
